@@ -1,0 +1,28 @@
+p{
+    color: black;
+    font-family: Arial;
+    font-size: 20;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color:darkgrey
+}
+img{
+    margin-left: 40%;
+}
+.datospersonales{
+    position: relative;
+    left: 45%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    background-color: blueviolet;
+    width: 100px;
+	margin: 10px;
+	font-size: 23px;
+}
