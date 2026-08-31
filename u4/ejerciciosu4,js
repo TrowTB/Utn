@@ -23,4 +23,18 @@ else  {
     console.log ("deberia ir en avion")
 }
 
+//ejercicio 3
+
+let productos = ['teclado', 'mouse', 'auriculares'];
+for (let i = 0; i < productos.length; i++){
+    console.log (`¡no te olvides de comprar ${productos [i]}!` );    
+}
+
+//ejercicio 4
+
+let numeros = [10, 25, 7, 40, 15];
+for (let i = 0; i < numeros.length; i++){
+console.log()
+}
+
 
