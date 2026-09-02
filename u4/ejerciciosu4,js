@@ -33,8 +33,16 @@ for (let i = 0; i < productos.length; i++){
 //ejercicio 4
 
 let numeros = [10, 25, 7, 40, 15];
+let mayor = numeros [0];
 for (let i = 0; i < numeros.length; i++){
-console.log()
+if (numeros[i] > mayor){
+mayor = numeros [i];
 }
+}
+console.log (`el numero mayor es ${mayor}`);
+
+
+
+
 
 
