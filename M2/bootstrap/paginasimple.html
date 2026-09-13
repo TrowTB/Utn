@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comienzo de bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cambios.css">
+</head>
+<body>
+<h1 class="titulo-fachero">TB</h1>
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Gaming Store</span>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Componentes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Perifericos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Placas de video</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Procesadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Memorias ram</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Almacenamiento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fuentes de poder</a>
+        </li>
+        </ul>
+        
+    </div>
+  </div>
+</nav>
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"></a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="container">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="perifericos.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="graficas.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="procesadores.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<nav class="navbar bg-light">
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success me-2" type="button">Armar pc</button>
+    <button class="btn btn-sm btn-outline-secondary" type="button">Guia de armado</button>
+  </form>
+</nav> 
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <span class="navbar-text">
+      La idea es hacer una pagina sobre hardware
+    </span>
+  </div>
+</nav>  
+<div class="card" style="width: 18rem;">
+  <img src="perifericos.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Perifericos</h5>
+  </div>
+  <div class="card-body">
+    <a href="#" class="card-link">Teclados</a>
+    <a href="#" class="card-link">Mouse</a>
+    <a href="#" class="card-link">Auriculares</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="graficas.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Placas de video</h5>
+    <div class="card-body">
+  <a href="#" class="card-link">Nvidia</a>
+    <a href="#" class="card-link">AMD</a>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
