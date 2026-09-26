@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,27 +21,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#novedades">Novedades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Historia</a>
+              <a class="nav-link" href="#historia">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conocenos</a>
+              <a class="nav-link" href="#conocenos">Conocenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactanos">Contactanos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="hero container-fluid">
-        <div id="Home" class="row align-items-center min-vh-100">
+    <div id="home" class="hero container-fluid scroll_section">
+        <div class="row align-items-center min-vh-100">
             <div class="col-lg-3 offset-lg-2">
                 <p>Cerveza Artesanal Premium</p>
                 <h1>BEER X</h1>
@@ -50,8 +53,8 @@
         </div>
     </div>
 
-    <div class="row my-5 align-items-start">
-        <div id="novedades" class="col-md-5 offset-md-2 py-3">
+    <div id="novedades" class="row my-5 align-items-start scroll_section">
+        <div class="col-md-5 offset-md-2 py-3">
             <h2>Novedades</h2>
             <ul class="lista-novedades">
                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/lager.jpg" alt="Lager"> Lager</a></li>
@@ -104,16 +107,111 @@
         </div>
     </div>
 
+    <div id="historia" class="row align-items-center py-4 scroll_section">
+      <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+        <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+      </div>
+      <div class="col-lg-2 col-md-3 d-none d-sm-block">
+        <img src="img/historia_2.jpg" alt="historia 2" class="img-fluid">
+      </div>
+      <div class="col-12 d-sm-none">
+        <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+        <h2>Historia</h2>
+        <p>Nacimos en un pequeño garaje con un barril, mucha paciencia y la pasión intacta por crear algo auténtico. Hoy seguimos elaborando cada receta respetando el tiempo de maduración y la calidad de los ingredientes, manteniendo viva la esencia artesanal que dio origen a nuestra primera cerveza.</p>
+      </div>
+    </div>
+
+    <div id="nosotros" class="row row-cols-1 row-cols-md-4 g-4 py-4 scroll_section">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/nosotros01.jpg" class="card-img-top" alt="Sofía Martínez">
+          <div class="card-body">
+            <h5 class="card-title">Sofía Martínez</h5>
+            <p class="card-text"><strong>Rol:</strong> Maestra Cervecera / Brewmaster<br>
+            <strong>Propósito:</strong> Diseñar y supervisar la elaboración de cada estilo de cerveza, asegurando el equilibrio perfecto de aromas, lúpulos y calidad en cada lote.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/nosotros02.jpg" class="card-img-top" alt="Marcos Benítez">
+          <div class="card-body">
+            <h5 class="card-title">Marcos Benítez</h5>
+            <p class="card-text"><strong>Rol:</strong> Control de Calidad y Selección de Materia Prima<br>
+            <strong>Propósito:</strong> Evaluar minuciosamente el origen del agua, levaduras y cebada, manteniendo la consistencia técnica y el sabor artesanal característico de la marca.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/nosotros03.jpg" class="card-img-top" alt="Nicolás Rossi">
+          <div class="card-body">
+            <h5 class="card-title">Nicolás Rossi</h5>
+            <p class="card-text"><strong>Rol:</strong> Encargado de Bar y Atención al Cliente<br>
+            <strong>Propósito:</strong> Crear la experiencia en el local, asesorando a los visitantes sobre maridajes y estilos para que cada cliente encuentre su cerveza ideal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/nosotros04.jpg" class="card-img-top" alt="Damián López">
+          <div class="card-body">
+            <h5 class="card-title">Damián López</h5>
+            <p class="card-text"><strong>Rol:</strong> Innovación y Recetas Especiales<br>
+            <strong>Propósito:</strong> Experimentar con ediciones limitadas, técnicas de maceración y nuevos ingredientes para sorprender con sabores creativos cada temporada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="conocenos" class="row py-4 scroll_section">
+        <h2>Visitanos</h2>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2194088954598!2d-58.422687887919786!3d-34.598612957117226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca62d4cf1563%3A0x686de505d84c67e6!2sAv.%20Medrano%20951%2C%20C1179AAQ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1790446166759!5m2!1ses!2sar"></iframe>
+        </div>
+    </div>
+
+    <div id="contactanos" class="col-md-4 mt-4 mt-sm-0 py-4 scroll_section">
+        <h2>Contactanos</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="col-md-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido">
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="col-12">
+            <label for="tel" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="tel">
+          </div>
+          <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+    </div>
+
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="modal-title" id="exampleModalLabel">cervezas</h2>
+                    <h2 class="modal-title" id="exampleModalLabel">Cervezas</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h3>Lager</h3>
-                    <p>Nuestra Lager es una cerveza dorada, refrescante y con un suave amargor ideal para acompañar tus comidas</p>
+                    <p>Nuestra Lager es una cerveza dorada, refrescante y con un suave amargor ideal para acompañar tus comidas.</p>
                 </div>
             </div>
         </div>

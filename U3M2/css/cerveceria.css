@@ -59,3 +59,16 @@ h1, h2{
 text-align: center;
 padding: 50px 20px;
 }
+html {
+    scroll-behavior: smooth; 
+    }
+    .staff{
+        background: #efefef;
+    }
+    .mapa iframe{
+        width: 100%;
+        aspect-ratio: 1.2;
+    }
+    .scroll_section{
+        scroll-margin-top: 60px;
+    }
