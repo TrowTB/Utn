@@ -23,6 +23,20 @@ router.get('/almacenamiento', function(req, res){
 router.get('/fuentes', function(req, res){
   res.send("Fuentes de poder");
 })
+router.get('/session', function(req, res) {
+  req.session.nombre = 'Brandon';
+  req.session.apellido = 'Henriquez';
+  req.session.edad = 21;
+
+  res.send('Sesión guardada');
+});
+
+router.get('/mostrar-session', function(req, res) {
+  res.send(`Hola ${req.session.nombre} ${req.session.apellido} ${req.session.edad}`);
+});
+  
+  
+  
 
 
 
