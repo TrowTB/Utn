@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const db = require('../bd');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -33,6 +34,17 @@ router.get('/session', function(req, res) {
 
 router.get('/mostrar-session', function(req, res) {
   res.send(`Hola ${req.session.nombre} ${req.session.apellido} ${req.session.edad}`);
+});
+
+router.get('/empleados', async function(req, res, next) {
+  try {
+    const empleados = await db.query('SELECT * FROM empleados');
+
+    res.json(empleados);
+
+  } catch (error) {
+    next(error);
+  }
 });
   
   
